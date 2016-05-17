@@ -4,6 +4,13 @@ This React setup involves using [systemJS/jspm-cli](https://github.com/jspm/jspm
 
 I think we have saved the best for last. Mostly because systemJS/jspm handles the configuration file with a [cli tool](https://github.com/jspm/jspm-cli) and the solution would appear to be the most future proof offering available today.
 
+We'll create this setup in nine steps. Or, follow the four steps below which uses this Github repo to speed up this setup.
+
+1. [Clone/download](https://github.com/codylindley/simple-react-systemjs-jspm-setup-4-apps) code
+2. Follow step #1
+3. Run `npm install && jspm install` from the cloned directory
+4. Follow step 8.
+
 ### Step 1: Verify Node.js and npm then install global packages
 
 In this step, make sure you have installed or have the most recent stable version of [Node.js and npm](https://nodejs.org/en/). Then run the following command to install [jspm](https://www.npmjs.com/package/jspm) and [browser-sync](https://www.browsersync.io/) globally.
