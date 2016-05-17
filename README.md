@@ -1,6 +1,6 @@
 ## Transform JSX/ES 2015 during development using Babel-core via systemJS/jspm.io
 
-This setup involves using [systemJS/jspm-cli](https://github.com/jspm/jspm-cli) to tranform (JSX/ES 2015), load, and bundle JavaScript modules (and CSS) using [ES 2015 module format](https://github.com/lukehoban/es6features#modules). 
+This React setup involves using [systemJS/jspm-cli](https://github.com/jspm/jspm-cli) to tranform (JSX/ES 2015), load, and bundle JavaScript modules (and CSS) using [ES 2015 module format](https://github.com/lukehoban/es6features#modules). 
 
 I think we have saved the best for last. Mostly because systemJS/jspm handles the configuration file with a [cli tool](https://github.com/jspm/jspm-cli) and the solution would appear to be the most future proof offering available today.
 
