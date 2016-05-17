@@ -2,7 +2,7 @@
   "scripts": {
     "bundle": "jspm bundle app.js --inject",
     "unBundle": "jspm unbundle",
-    "server": "browser-sync --port 4000 start --server --files \"**/*.html\" \"**/*.css\" \"**/*.js\" "
+    "server": "browser-sync --port 4000 --no-inject-changes start --server --files \"**/*.html\" \"style/**/*.css\" \"js/**/*.js\" "
   },
   "devDependencies": {
     "browser-sync": "^2.12.8",
